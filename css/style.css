@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 20px;
+    background-color: #131619;
+    color: white;
+    font-family:DM Sans ;
+}
+
+
+header{
+    min-height: 100vh;
+   background-image:
+   linear-gradient(rgba(0,0,0,.7) , rgba(0, 0, 0, 0.7)) 
+    , url(..//images/A7300808_2019_A7iii_Fitness_Yoga_14092019_Banner.avif);
+   background-position: center;
+   background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    margin-top: 20px;
+}
+.main-nav , .footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+
+}
+.main-nav li , .footer-nav li, .social-nav li{
+    padding: 0  15px;
+
+}
+
+.main-nav li a , .footer-nav li a, .social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.main-nav li a:hover , .footer-nav li a:hover, .social-nav li a:hover{
+    color: #00F700;
+    text-decoration: underline;
+}
+.hero-box{
+    position: absolute;
+    top: 60%; left: 10%;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: solid 2px #00F700;
+    margin-left: 15px;
+    padding: 20px 20px;
+    color: #00F700;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn:hover{
+    color: white;
+    background-color: #00F700;
+}
+section{
+
+    padding: 40px 0;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px #00F700;
+}
+.feat-info{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+}
+.box{
+
+    text-align: center;
+}
+.box i{
+
+font-size: 100px;
+color: #00F700;
+margin-bottom: 10px;
+}
+.box h3{
+
+    margin-bottom: 20px;
+
+
+}
+.box p{
+
+line-height: 1;
+font-size: 18px;
+padding-left: 20px;
+}
+.train{
+
+    text-align: center;
+}
+.train img{
+    padding-top: 20px;
+}
+.train p{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.ph{
+    padding: 0 !important;
+    background-color: black;
+    overflow: hidden;
+}
+
+.ph img{
+    width: 100%;
+    margin-bottom: -10px;
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+.ph img:hover{
+    opacity: 1;
+    transform: scale(1);
+} 
+.coutch img{
+    padding-top: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    opacity: .6;
+    border-radius: 150px;
+}
+.coutch img:hover{
+    opacity: 1;
+    transform: scale(1);
+} 
+.coutch h4{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+} 
+
+.coutch p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 100px;
+
+
+
+}
+#testimonials{
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.7) , rgba(0, 0, 0, 0.7)) 
+     , url(..//images/images.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#testimonials i{
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    color: #00F700;
+
+}
+#testimonials p{
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+#testimonials img{
+ height: 60px;
+ border-radius: 50%;
+ vertical-align: middle;
+ margin-right: 15px;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    font-size: large;
+    margin-bottom: 20px;
+}
+input[type=text] ,
+input[type=email] ,
+select ,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border: solid #ccc 3px;
+    border-radius: 20px;
+    font-size: large;
+    margin-bottom: 10px;
+    background-color: #131619;
+    border-color: #00F700;
+}
+input[type=checkbox]{
+    margin-bottom: 30px;
+
+}
+button{
+    background-color: #00F700;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #076107;
+    border-radius: 20px;
+    align-items: center;
+
+}
+button:hover{
+    border-color: black;
+    color: #00F700;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #000000;
+}
+footer p{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+span{
+    color: #00F700;
+}
+
